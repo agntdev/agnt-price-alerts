@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/stats",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show aggregated usage metrics (active users, top alerts)"
+            }
+          }
+        ],
+        "send": {
+          "text": "/stats"
+        }
+      }
+    ]
+  }
+]
