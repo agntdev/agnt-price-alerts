@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Set Price Alert",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure threshold-based price alerts"
+            }
+          }
+        ],
+        "send": {
+          "callback": "alert:price"
+        }
+      }
+    ]
+  }
+]
